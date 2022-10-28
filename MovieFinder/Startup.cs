@@ -11,7 +11,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace HandsOnAPIUsingModels
+namespace MovieFinder
 {
     public class Startup
     {
@@ -29,7 +29,7 @@ namespace HandsOnAPIUsingModels
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "HandsOnAPIUsingModels", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "MovieFinder", Version = "v1" });
             });
         }
 
@@ -40,7 +40,7 @@ namespace HandsOnAPIUsingModels
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "HandsOnAPIUsingModels v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "MovieFinder v1"));
             }
 
             app.UseRouting();

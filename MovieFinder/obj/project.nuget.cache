@@ -1,18 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "m9PrkZ3/W9FFjD5aEEE9uh/pZ2305G/4/K6tWoO+lj9cV+ye8R4/yp/PNGlPW8fRu2pl5qTKBj0PZrQ5j2RyyQ==",
-  "success": false,
+  "dgSpecHash": "69NnpS+lKF3WXdlaN+rcIeXIuTFXFLnje63+jU0tznNXM6G0ioDgPlAr8MMXEUTWxkVW3TKEqeqJINnxW4v0rA==",
+  "success": true,
   "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\MovieFinder\\MovieFinder\\MovieFinder.csproj",
-  "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package Swashbuckle.AspNetCore. No packages exist with this id in source(s): C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
-      "libraryId": "Swashbuckle.AspNetCore",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
 }
